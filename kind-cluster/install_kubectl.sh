@@ -8,7 +8,7 @@ INSTALL_DIR="/usr/local/bin"
 # Download and install kubectl
 curl -LO "$URL"
 chmod +x kubectl
-sudo mv kubectl $INSTALL_DIR/
+sudo mv /kubectl /usr/local/bin
 kubectl version --client
 
 # Clean up
